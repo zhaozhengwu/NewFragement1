@@ -23,6 +23,7 @@ public class MainActivity extends Activity {
             public void onClick(View view) {
                 i++;
                 i++;
+                i++;
                 topFragement=new TopFragement();
                 Bundle bundle=new Bundle();
                 bundle.putString("key","我是Activity发送的数据"+i);
