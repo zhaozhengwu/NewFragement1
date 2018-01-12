@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="chenghui.com.newfragement.MainActivity">
+
+        <LinearLayout
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp">
+
+
+    <fragment
+        android:id="@+id/f1"
+        android:name="chenghui.com.newfragement.TopFragement"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+    <fragment
+        android:id="@+id/f2"
+        android:name="chenghui.com.newfragement.BottomFragement"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:text="Activity模块"/>
+        </LinearLayout>
+</android.support.constraint.ConstraintLayout>
