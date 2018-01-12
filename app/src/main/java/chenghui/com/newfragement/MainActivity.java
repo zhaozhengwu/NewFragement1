@@ -22,6 +22,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 i++;
+                i++;
                 topFragement=new TopFragement();
                 Bundle bundle=new Bundle();
                 bundle.putString("key","我是Activity发送的数据"+i);
